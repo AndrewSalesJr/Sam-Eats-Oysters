@@ -1,5 +1,7 @@
 # Sam-Eats-Oysters.git
 
+https://andrewsalesjr.github.io/Sam-Eats-Oysters/
+![Web capture_19-7-2022_155358_](https://user-images.githubusercontent.com/93755640/179847154-de670808-bd7b-4831-b57d-434349659d50.jpeg)
 
 ### Project Overview
 
@@ -7,6 +9,7 @@ Sam-Eats-Oysters.git is a project in which I defactor the code of the site Horis
 
 In this project, my task is to look through the code of the html and css file for the website. I must change the html tags to semantic tags and add alt text to all images used in order to better adhere to accessibility standards. with these changes made I will need to update the css accordingly so that it is able to apply to the correct html elements. I will also organize the html and css files, so they are easier to read for any other person that decides to take a look at the code in the future. Lastly I will attempt to consolodate some of the css code and remove any unnecessary class attributes.
 
+### Detailed Changes
 
 I started off by adding the header and nav tags in place of basic div tags, updating the css selectors from the related div tags to header and nav.
 
