@@ -1,4 +1,12 @@
+# Sam-Eats-Oysters.git
+
+
+### Project Overview
+
 Sam-Eats-Oysters.git is a project in which I defactor the code of the site Horiseon, a digital marketing company.
+
+In this project, my task is to look through the code of the html and css file for the website. I must change the html tags to semantic tags and add alt text to all images used in order to better adhere to accessibility standards. with these changes made I will need to update the css accordingly so that it is able to apply to the correct html elements. I will also organize the html and css files, so they are easier to read for any other person that decides to take a look at the code in the future. Lastly I will attempt to consolodate some of the css code and remove any unnecessary class attributes.
+
 
 I started off by adding the header and nav tags in place of basic div tags, updating the css selectors from the related div tags to header and nav.
 
