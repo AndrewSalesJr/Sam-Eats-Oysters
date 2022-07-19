@@ -20,6 +20,8 @@ header h1 {
     font-size: 48px;
 }
 
+/* this changes the font color for the "seo" of "horiseon" in the header to be slightly darker */
+
 .seo {
     color: #d9dcd6;
 }
@@ -32,11 +34,11 @@ nav {
     font-size: 20px;
 }
 
-.list {
+ul {
     list-style-type: none;
 }
 
-.list li {
+li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -44,10 +46,6 @@ nav {
 a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -59,21 +57,17 @@ p {
     background-position: center;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+} 
+
+p {
+    font-size: 16px;
 }
+
+/* content-list class includes the three separate sections within <main> tag */
 
 .content-list {
     margin-bottom: 20px;
@@ -93,7 +87,19 @@ p {
     font-size: 36px;
 }
 
-.benefits {
+/* Float classes are for images in content section to alternate in alignment */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+ 
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -104,20 +110,22 @@ p {
     background-color: #2589bd;
 }
 
+/* benefit-list class includes the three separate sections within <aside> tag */
+
 .benefit-list {
     margin-bottom: 32px;
     color: #ffffff;
+}
+
+.benefit-list h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
 .benefit-list img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-.benefit-list h3 {
-    margin-bottom: 10px;
-    text-align: center;
 }
 
 footer {
